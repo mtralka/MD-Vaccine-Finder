@@ -162,7 +162,7 @@ if __name__ == "__main__":
     driver.get("http://www.google.com")
 
     elem = driver.find_element_by_name("q")
-    elem.send_keys(f"MD Vaccine Bot - searches every {WAIT_TIME + 5} seconds")
+    elem.send_keys(f"MD Vaccine Bot - searches every {WAIT_TIME} seconds")
     time.sleep(2)
 
     while not foundVaccine:
