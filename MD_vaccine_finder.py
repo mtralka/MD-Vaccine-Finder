@@ -116,7 +116,7 @@ def main(URL, driver):
 
         if elem2:
             highlight(elem2)
-            time.sleep(5)
+            time.sleep(WAIT_TIME / 2)
             driver.close()
             driver.switch_to.window(driver.window_handles[0])
 
@@ -167,7 +167,7 @@ if __name__ == "__main__":
 
     while not foundVaccine:
         main(URL, driver)
-        time.sleep(5)
+        time.sleep(WAIT_TIME / 2)
     else:
         time.sleep(100000)
         driver.close()
