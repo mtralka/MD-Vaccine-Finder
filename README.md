@@ -1,3 +1,5 @@
+``` Deprecated due to website changes ```
+
 # MD Vaccine Finder
 
 Use the power of Python and Selenium to scrape the nearest MD vaccine appointments from the [MassVax MD](https://massvax.maryland.gov/) official site.
